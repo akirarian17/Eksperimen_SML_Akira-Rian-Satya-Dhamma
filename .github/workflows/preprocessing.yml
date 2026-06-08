@@ -16,7 +16,7 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python preprocessing/automate_Akira Rian Satya Dhamma.py
+      - run: python preprocessing/automate_AkiraRianSatyaDhamma.py
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
