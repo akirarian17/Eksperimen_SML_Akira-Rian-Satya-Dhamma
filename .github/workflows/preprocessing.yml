@@ -3,6 +3,9 @@ name: Preprocessing
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   preprocess:
     runs-on: ubuntu-latest
