@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
 
 
-INPUT_FILE = "../weatherAUS_raw.csv"
+INPUT_FILE = "weatherAUS_raw.csv"
 OUTPUT_FILE = "weatherAUS_uluru_preprocessed.csv"
 
 def load_data(filepath):
