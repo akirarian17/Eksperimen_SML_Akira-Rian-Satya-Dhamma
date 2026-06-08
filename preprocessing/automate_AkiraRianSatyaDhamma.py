@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 INPUT_FILE = "weatherAUS_raw.csv"
-OUTPUT_FILE = "weatherAUS_uluru_preprocessed.csv"
+OUTPUT_FILE = "./preprocessing/weatherAUS_uluru_preprocessed.csv"
 
 def load_data(filepath):
     return pd.read_csv(filepath)
